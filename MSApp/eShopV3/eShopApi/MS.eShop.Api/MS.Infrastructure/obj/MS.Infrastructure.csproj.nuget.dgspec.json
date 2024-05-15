@@ -1,0 +1,207 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\PRIVATE\\GitHub\\MS.ThaiSalonV2\\eShopV3\\eShopApi\\MS.eShop.Api\\MS.Infrastructure\\MS.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "D:\\PRIVATE\\GitHub\\MS.ThaiSalonV2\\eShopV3\\eShopApi\\MS.eShop.Api\\MS.Core\\MS.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PRIVATE\\GitHub\\MS.ThaiSalonV2\\eShopV3\\eShopApi\\MS.eShop.Api\\MS.Core\\MS.Core.csproj",
+        "projectName": "MS.Core",
+        "projectPath": "D:\\PRIVATE\\GitHub\\MS.ThaiSalonV2\\eShopV3\\eShopApi\\MS.eShop.Api\\MS.Core\\MS.Core.csproj",
+        "packagesPath": "C:\\Users\\nvmanh\\.nuget\\packages\\",
+        "outputPath": "D:\\PRIVATE\\GitHub\\MS.ThaiSalonV2\\eShopV3\\eShopApi\\MS.eShop.Api\\MS.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nvmanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Formatters.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Core": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "Microsoft.Maui.Graphics": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Quartz.AspNetCore": {
+              "target": "Package",
+              "version": "[3.8.1, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "System.Resources.ResourceManager": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PRIVATE\\GitHub\\MS.ThaiSalonV2\\eShopV3\\eShopApi\\MS.eShop.Api\\MS.Infrastructure\\MS.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PRIVATE\\GitHub\\MS.ThaiSalonV2\\eShopV3\\eShopApi\\MS.eShop.Api\\MS.Infrastructure\\MS.Infrastructure.csproj",
+        "projectName": "MS.Infrastructure",
+        "projectPath": "D:\\PRIVATE\\GitHub\\MS.ThaiSalonV2\\eShopV3\\eShopApi\\MS.eShop.Api\\MS.Infrastructure\\MS.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\nvmanh\\.nuget\\packages\\",
+        "outputPath": "D:\\PRIVATE\\GitHub\\MS.ThaiSalonV2\\eShopV3\\eShopApi\\MS.eShop.Api\\MS.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nvmanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\PRIVATE\\GitHub\\MS.ThaiSalonV2\\eShopV3\\eShopApi\\MS.eShop.Api\\MS.Core\\MS.Core.csproj": {
+                "projectPath": "D:\\PRIVATE\\GitHub\\MS.ThaiSalonV2\\eShopV3\\eShopApi\\MS.eShop.Api\\MS.Core\\MS.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "MySqlBackup.NET": {
+              "target": "Package",
+              "version": "[2.3.8, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.3.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

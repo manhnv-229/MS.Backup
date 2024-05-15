@@ -1,0 +1,2 @@
+export const GET_ROUTER_INFO = "GET_ROUTER_INFO";
+export const SET_ROUTER_HISTORY = "SET_ROUTER_HISTORY";

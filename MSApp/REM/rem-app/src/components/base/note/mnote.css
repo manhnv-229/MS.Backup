@@ -1,0 +1,359 @@
+.mnote {
+  background-color: #f7bd00;
+  z-index: 9999;
+  position: fixed;
+  padding: 24px;
+}
+
+.mnote .mdialog__content {
+  padding: 4px;
+}
+.mdialog.mnote {
+  top: unset;
+  left: 24px;
+  bottom: 24px;
+}
+
+.mnote-item {
+  position: relative;
+  width: 100%;
+  border-radius: 4px;
+  background-color: #ffefb9;
+  padding: 12px;
+  padding-top: 0px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  max-height: 100px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+}
+
+.mnote-item * {
+  box-sizing: border-box;
+}
+
+.mnote-item-time {
+  width: 100%;
+  text-align: right;
+  font-size: 10px;
+  position: relative;
+  padding: 4px;
+}
+
+.mnote-item-time * {
+  position: sticky;
+  top: 0;
+}
+
+.mnote-item .editor-full * {
+  background-color: #ffefb9;
+}
+
+.mnote-detail .mdialog__header {
+  background-color: #ffe48a;
+  height: 36px;
+  box-sizing: border-box;
+  border-radius: 4px 4px 0 0;
+  position: relative;
+}
+
+.mnote .mdialog__header {
+  height: 36px;
+  box-sizing: border-box;
+  border-radius: 4px 4px 0 0;
+}
+
+.mnote-detail .editor-toolbar {
+  background-color: #ffefb9;
+}
+
+.mnote-item .editor-full *{
+  background-color: inherit;
+}
+
+.mnote-item .editor-full [contenteditable]{
+  background-color: unset;
+}
+
+.mnote-item:hover {
+  cursor: pointer;
+  /* background-color: #fcdf82; */
+}
+
+.mnote__button {
+  visibility: hidden;
+  background-color: transparent;
+  border: unset;
+  width: 36px;
+  height: 36px;
+  background-image: url(./icon/deletex-48.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  z-index: 999;
+}
+.mnote-item:hover .mnote__button {
+  visibility: visible;
+}
+.mnote__button:hover {
+  background-color: #ffce2e;
+}
+
+.note-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  row-gap: 5px;
+  box-sizing: border-box;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  overflow-y: auto;
+  max-height: calc(100vh - 48px);
+}
+.note-info {
+  font-size: 12px;
+  font-weight: 100;
+  font-style: italic;
+  color: #212121;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 76px;
+}
+
+.btn--add-note {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px 0 0 0;
+  border-style: unset;
+  background-color: unset;
+  cursor: pointer;
+  background-image: url(./icon/add.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 20px;
+}
+
+.btn--more {
+  width: 36px;
+  height: 36px;
+  top: 0;
+  right: 36px;
+  position: absolute;
+  background-image: url(./icon/more-32.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-style: unset;
+  background-color: unset;
+  cursor: pointer;
+}
+
+.btn--add-note:hover,
+.btn--more:hover {
+  /* background-color: #f3df9e; */
+  background-color: unset;
+  outline: 1px solid #dedede;
+}
+
+.mnote-detail .editor-full [contenteditable] {
+  border: unset;
+  background-color: unset;
+}
+
+.mnote-detail .mdialog__content {
+  padding: 0;
+   background-color: #fff7d1;
+}
+.mnote-detail .mdialog__content *{
+  background-color: inherit;
+}
+
+.mnote-detail .m-editor {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.mnote-detail .editor-toolbar {
+  padding: 10px;
+  background-color: unset;
+  /* background-color: #fff7d1; */
+}
+
+.mnote-detail .editor-toolbar button,
+.mnote-detail .editor-toolbar .--color {
+  background-color: unset;
+  opacity: .7;
+}
+
+.mnote-detail .editor-toolbar button:hover,
+.mnote-detail .editor-toolbar .--color:hover {
+  /* background-color: #ffef9f; */
+  background-color: unset;
+  opacity: 1;
+  border: unset;
+  outline: 1px solid #dedede;
+  border-radius: 4px;
+}
+.note-toolbar {
+  position: absolute;
+  width: 200px;
+  right: 36px;
+  top: 0;
+  z-index: 999;
+  display: grid;
+  box-sizing: border-box;
+}
+
+.note-toolbar > button {
+  width: 100%;
+  height: 36px;
+  border: unset;
+  text-align: left;
+  padding-left: 40px;
+  background-repeat: no-repeat;
+  background-position-x: 12px;
+  background-position-y: center;
+  background-size: 20px 20px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.note-toolbar > button:hover {
+  background-color: #dedede;
+}
+.note__title {
+  padding-left: 12px;
+  padding-right: 12px;
+  font-weight: 700;
+  font-size: 30px;
+}
+.note__search {
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.note__input--search {
+  padding: 0 12px;
+  height: 36px;
+  border: unset;
+  width: 100%;
+  background-color: #dedede;
+  background-image: url(./icon/search-30.png);
+  background-position: calc(100% - 12px) center;
+  background-repeat: no-repeat;
+  background-size: 24px;
+  padding-right: 36px;
+}
+
+.note__input--search:focus {
+  background-color: #f1f1f1;
+}
+
+.btn--showlist {
+  background-image: url(./icon/list-64.png);
+}
+
+.btn--delete {
+  background-image: url(./icon/remove-50.png);
+}
+.list-color {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.btn-color {
+  width: 30px;
+  height: 50px;
+  border: unset;
+  flex: 1;
+  cursor: pointer;
+}
+
+.btn-color.--selected {
+  background-image: url(./icon/check-50.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 20px;
+}
+
+.--green {
+  background-color: green;
+}
+
+.--yellow {
+  background-color: yellow;
+}
+
+.--blue {
+  background-color: blue;
+}
+
+.--violet {
+  background-color: violet;
+}
+
+.--gray {
+  background-color: gray;
+}
+
+.mnote--minize{
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  z-index: 1000;
+}
+
+.mnote__button--icon {
+  width: 50px;
+  height: 50px;
+  background-image: url(./icon/note-48.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: unset;
+  background-color: transparent;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.mnote__button--icon:hover,
+.mnote__button--icon:focus {
+  opacity: 1;
+}
+
+.mnote__number{
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.mnote__number:hover{
+  width: 28px;
+  height: 28px;
+  top: -10px;
+  right: -10px;
+}

@@ -1,0 +1,144 @@
+.statistic-toolbar {
+  display: flex;
+}
+.report__time-option{
+  width: 100%;
+}
+.toolbar__right-custom {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0px;
+  font-weight: 700;
+}
+
+#lblTotalAmount,
+.report-money > * {
+  font-size: 32px;
+  font-weight: 800;
+  background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.color--red {
+  color: #ff0000 !important;
+}
+
+.inventory-item--link-reference {
+  cursor: pointer;
+  color: var(--color-link);
+}
+
+.inventory-item--link-reference:hover {
+  text-decoration: underline;
+}
+
+.--left{
+  flex: 1
+}
+.report-detail{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* overflow-y: auto; */
+}
+
+.report-table{
+  flex:1;
+  overflow-y: auto;
+}
+
+.report-money {
+  position: relative;
+  width: 100%;
+  text-align: right;
+  font-size: 32px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 32px;
+}
+
+.report-money label {
+  font-size: 20px;
+  color: #000 !important;
+}
+
+.report-toolbar{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.report__tab{
+  width: 100%;
+  border-bottom: 1px solid #dedede;
+  display: flex;
+  background-color: #dedede;
+  column-gap: 2px;
+  padding: 1px;
+  box-sizing: border-box;
+}
+.report__tab a{
+  border: unset;
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #dedede;
+  /* box-sizing: border-box; */
+  border-bottom: 1px solid #dedede;
+  z-index: 99;
+  text-decoration: unset;
+  color: #000;
+}
+
+.tab__item:hover{
+  outline: 1px dashed var(--color-link);
+}
+.tab__item--active,.tab__item.router-link-active{
+  background-color: #fff !important;
+  font-weight: 700;
+  border-bottom: 2px solid var(--color-link) !important;
+  /* outline: 1px solid var(--color-link) !important; */
+  z-index: 100 !important;
+}
+
+.report__option{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 12px;
+}
+
+.report__footer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 12px;
+}
+
+.report__footer .report-money{
+  justify-content: flex-start;
+}
+
+.el-table tfoot td.el-table__cell{
+  color: green;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.m-cell--custom .cell{
+  white-space: normal !important;
+  word-break: break-word;
+}

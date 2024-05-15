@@ -1,0 +1,12 @@
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.ApplicationCore\bin\Debug\netcoreapp3.1\MS.ApplicationCore.deps.json
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.ApplicationCore\bin\Debug\netcoreapp3.1\MS.ApplicationCore.dll
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.ApplicationCore\bin\Debug\netcoreapp3.1\MS.ApplicationCore.pdb
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.ApplicationCore\obj\Debug\netcoreapp3.1\MS.ApplicationCore.AssemblyInfoInputs.cache
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.ApplicationCore\obj\Debug\netcoreapp3.1\MS.ApplicationCore.AssemblyInfo.cs
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.ApplicationCore\obj\Debug\netcoreapp3.1\MS.ApplicationCore.csproj.CoreCompileInputs.cache
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.ApplicationCore\obj\Debug\netcoreapp3.1\MS.ApplicationCore.dll
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.ApplicationCore\obj\Debug\netcoreapp3.1\MS.ApplicationCore.pdb
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.ApplicationCore\obj\Debug\netcoreapp3.1\MS.ApplicationCore.csproj.AssemblyReference.cache
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.ApplicationCore\obj\Debug\netcoreapp3.1\MS.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.ApplicationCore\obj\Debug\netcoreapp3.1\MS.ApplicationCore.Resource.Resource.resources
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.ApplicationCore\obj\Debug\netcoreapp3.1\MS.ApplicationCore.csproj.GenerateResource.cache

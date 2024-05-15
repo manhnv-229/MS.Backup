@@ -1,0 +1,20 @@
+version: '3'
+networks: 
+  nvmanh-network:
+    external: true
+services:
+  thaisalonv2:
+    image: thaisalonv2
+    container_name: thaisalonv2
+    environment:
+        - TZ=Asia/Ho_Chi_Minh
+    restart: always
+    networks:
+      - nvmanh-network
+    ports:
+      - '7007:80'
+    build:
+      context: .
+      dockerfile: MS.ThaiSalonV2.Api/Dockerfile
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

@@ -1,0 +1,165 @@
+<template>
+  <div class="mdialog">
+    <div class="mdialog-wrapper" :style="{ 'width': width, 'height': height }">
+      <button class="mdialog__button-close" @click="onClose">
+        <i class="icofont-ui-close"></i>
+      </button>
+      <div class="mdialog__header">
+        <div class="mdialog__header--title">{{ title }}</div>
+      </div>
+      <div class="mdialog__content">
+        <slot name="content"></slot>
+      </div>
+      <div class="mdialog__footer">
+        <slot name="footer"></slot>
+        <button v-if="showButton" class="btn btn--cancel mdialog__button--close"></button>
+        <button v-if="showButton" class="btn btn-default mdialog__button--save" @click="onSubmit">
+          {{ submitText }}
+        </button>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+export default {
+  name: "BaseDialog",
+  emits: ["onSubmit", "onClose"],
+  props: {
+    title: {
+      type: String,
+      required: false,
+    },
+    showButton: {
+      type: Boolean,
+      default: false,
+      required: false,
+    },
+    submitText: {
+      type: String,
+      default: "Lưu",
+      required: false,
+    },
+    width: {
+      type: String,
+      required: false,
+    },
+    height: {
+      type: String,
+      required: false,
+    }
+  },
+  methods: {
+    onSubmit() {
+      this.$emit("onSubmit");
+    },
+    onClose() {
+      this.$emit("onClose");
+    },
+  },
+};
+</script>
+<style scoped>
+.mdialog {
+  position: fixed;
+  /* max-width: 100vw; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.278);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  z-index: 1005;
+  max-height: 100%;
+  box-sizing: border-box;
+}
+
+.mdialog-wrapper {
+  position: relative;
+  background-color: #fff;
+  border-radius: 4px;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.mdialog__content {
+  padding: 16px;
+  height: calc(100% - 43px);
+  overflow-y: hidden;
+  /* flex: 1; */
+  box-sizing: border-box;
+}
+
+.mdialog__header {
+  padding: 16px 24px 0 24px;
+  min-width: 300px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* .mdialog__button-close {
+  position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 24px;
+    right: 24px;
+    padding: unset;
+    border: none;
+    background-color: unset;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: 700;
+} */
+
+.mdialog__button-close {
+  border: 1px solid #ff0000;
+  border-radius: 50%;
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: -10px;
+  right: -10px;
+  font-size: 20px;
+  padding: 0;
+  color: #ff0000;
+  background-color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 0px 8px #6d6d6d;
+}
+
+.mdialog__button-close:hover,
+.mdialog__button-close:focus {
+  /* background-color: #d1d1d1; */
+  color: #bd0000;
+}
+
+.mdialog__footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px 16px 10px 16px;
+  clear: both;
+  background-color: #e8e8e8;
+  border-radius: 0 0 4px 4px;
+  /* column-gap: 10px; */
+}
+
+.mdialog__footer button {
+  height: 36px;
+  min-width: 75px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.mdialog__footer button+button {
+  margin-left: 16px;
+}
+
+@media (max-width: 720px) {}
+</style>

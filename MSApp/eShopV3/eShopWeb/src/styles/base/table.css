@@ -1,0 +1,42 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.table__toolbar {
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-between;
+    border-bottom: 1px dotted #dedede;
+    padding-bottom: 8px;
+}
+
+.toolbar__left,
+.toolbar__left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.table__container {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.table__paging {
+    position: relative;
+}
+
+.table__footer {
+    position: relative;
+}
+
+.toolbar__right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 10px;
+}

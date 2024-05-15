@@ -1,0 +1,130 @@
+header {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  border-top: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  float: left;
+}
+
+.header__left {
+  background-color: #fff;
+  flex: 1;
+  height: 100%;
+  border-top: dotted 2px #ccc;
+  border-bottom: dotted 2px #ccc;
+  box-sizing: border-box;
+}
+
+.header__left .page-title {
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  font-size: 18px;
+  padding: 0 12px;
+  font-weight: 700;
+}
+.header__right {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.account-option {
+  color: #fff;
+  text-decoration: unset;
+}
+
+.account-option a {
+  text-decoration: none;
+  color: #fff;
+}
+.page-title {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  align-items: center;
+  justify-content: center;
+  background-color: #00000078;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  background-color: #fff;
+}
+
+.account-info {
+  height: 100%;
+}
+.account {
+  position: relative;
+  height: 100%;
+  cursor: pointer;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  border-left: 1px solid #ccc;
+}
+.account-option {
+  position: absolute;
+  top: calc(100% + 1px);
+  right: 0;
+  z-index: 9999;
+  background-color: #000000;
+  box-shadow: 0 3px 6px #ccc;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+  border-radius: 4px;
+}
+
+.option-item {
+  padding: 10px;
+  white-space: nowrap;
+  display: flex;
+  column-gap: 10px;
+}
+
+.option-item:hover {
+  background-color: #4a4a4a;
+}
+
+.org-info {
+  height: 25px;
+  width: 100%;
+  top: 60px;
+  position: sticky;
+  background-color: #fffb02;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
+.info-item + .info-item {
+  margin-left: 10px;
+}
+
+.total-money {
+  color: #0c701e;
+}
+
+.expenditure a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.expenditure .router-link-active {
+  color: #fff;
+  background-color: #ff0000;
+}

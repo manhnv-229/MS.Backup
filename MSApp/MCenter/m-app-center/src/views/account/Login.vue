@@ -1,0 +1,104 @@
+<template>
+    <div class="login">
+      <div class="login-container">
+        <div class="app-logo">
+            <img src="../../assets/logo_full.png" alt="">
+        </div>
+        <form class="login-form" id="FRM_LOGIN" @submit.prevent="onLogin">
+          <m-input
+            label="Tài khoản đăng nhập"
+            :required="true"
+            :isFocus="true"
+            v-model="user.UserName"
+            placeholder="Nhập số điện thoại chính của bạn"
+            v-model:validated="validated"
+          ></m-input>
+          <m-input
+            label="Mật khẩu"
+            placeholder="Mật khẩu"
+            type="password"
+            v-model="user.Password"
+            autocomplete="password"
+            :required="true"
+            :validated="validated"
+          ></m-input>
+          <div class="form__button">
+            <button id="btn-login" class="btn btn--default" submit="onLogin">
+              <i class="icofont-login"></i> Đăng nhập
+            </button>
+          </div>
+        </form>
+        <div class="login-ext">
+          <span
+            >Bạn chưa có cửa hàng? <i class="icofont-swoosh-right"></i>
+            <router-link to="/register">Tạo cửa hàng mới</router-link></span
+          >
+        </div>
+      </div>
+    </div>
+  </template>
+  <script>
+  export default {
+    name: "LoginPage",
+    components: {},
+    emits: [],
+    props: [],
+    created() {},
+    methods: {
+      onLogin() {
+        this.commonJs.login(this.user.UserName, this.user.Password);
+      },
+    },
+    data() {
+      return {
+        validated: false,
+        user: {},
+      };
+    },
+  };
+  </script>
+  <style scoped>
+  .app-logo{
+    display: grid;
+    place-items: center;
+    padding-bottom: 20px;
+  }
+
+  .app-logo img{
+    height: 100px;
+  }
+
+  .login {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.479);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 199;
+  }
+  
+  .login-container {
+    min-width: 200px;
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 4px;
+  }
+  .form__button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  #btn-login {
+    margin-top: 10px;
+  }
+  
+  .login-ext {
+    margin-top: 10px;
+    text-align: right;
+  }
+  </style>
+  

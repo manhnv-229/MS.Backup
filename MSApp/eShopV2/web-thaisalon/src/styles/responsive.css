@@ -1,0 +1,18 @@
+@media (max-width: 700px) {
+    .paging-index,
+    .paging-entity-name {
+        display: none;
+    }
+    .mobile--hide {
+        display: none;
+    }
+}
+
+.flex--column{
+    display: flex;
+    flex-direction: column;
+}
+
+.align--center{
+    align-items: center;
+}

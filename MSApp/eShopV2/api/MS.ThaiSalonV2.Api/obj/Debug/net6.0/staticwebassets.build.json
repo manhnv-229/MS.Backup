@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "150F6XbuLlH9+GOtpd2zraUy6EEBirfvx0EuF5cKS2Q=",
+  "Source": "MS.ThaiSalonV2.Api",
+  "BasePath": "_content/MS.ThaiSalonV2.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

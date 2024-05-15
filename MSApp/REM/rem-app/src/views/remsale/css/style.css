@@ -1,0 +1,171 @@
+.slots {
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+  height: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.slots:has(.group__button.--collapse) {
+  padding-left: 16px;
+}
+
+.slot__group {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.group-item {
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  background-color: #42a5f5;
+  color: #fff;
+  height: fit-content;
+  cursor: pointer;
+}
+.group-item:hover {
+  background-color: #2a8ddf;
+}
+.group-item:has(.--all) {
+  background-color: #42a5f5;
+}
+
+.group-item.--active {
+  box-shadow: 0 0 10px #212121;
+  box-shadow: 0px 0px 0px 2px green;
+  /* border-left: 4px solid #ff0000; */
+  background-color: #1f68a5;
+}
+.group__title.--all {
+  text-transform: uppercase;
+}
+.group__title {
+  background-color: #2771ad;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  padding: 4px 12px;
+}
+.group__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+.group__button {
+  border: unset;
+  background-color: unset;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 10px;
+  left: -26px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url(../../../assets/icon/left-48.png);
+  cursor: pointer;
+}
+.group__button.--collapse {
+  background-image: url(../../../assets/icon/right-48.png);
+}
+
+.group__button:hover {
+  width: 34px;
+  height: 34px;
+  right: -14px;
+}
+/* SLOT */
+.slot__container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  padding: 3px 0;
+}
+.slot__toolbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px;
+  box-shadow: 0 0 5px #dedede;
+  border-radius: 4px;
+}
+.toolbar__left {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.slot__toolbar .toolbar__button {
+  width: 36px;
+  height: 36px;
+  border: unset;
+  cursor: pointer;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 18px 18px;
+}
+
+.slot__toolbar .toolbar__button.--checked {
+  background-image: url(../../../assets/icon/check-48.png);
+}
+
+.slot__toolbar .toolbar__button.--locking.--checked {
+  background-image: url(../../../assets/icon/check-white-48.png);
+}
+
+.slot__toolbar .toolbar__button:hover {
+  outline: 4px dotted #42a5f5;
+}
+.slot__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: flex-start;
+  overflow-y: auto;
+}
+.slot__item {
+  position: relative;
+  border: 4px;
+  border-radius: 4px;
+  min-width: 300px;
+  min-height: 180px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+}
+
+.slot__item.--free,
+.toolbar__button.--free {
+  background-color: #dedede;
+}
+
+.slot__item.--busy,
+.toolbar__button.--busy {
+  background-color: #d4ecff;
+}
+
+.slot__item.--waiting,
+.toolbar__button.--waiting {
+  background-color: #ffff00;
+}
+
+.slot__item.--locking,
+.toolbar__button.--locking {
+  background-color: #ff0000;
+}

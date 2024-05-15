@@ -1,0 +1,61 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.table__toolbar {
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-between;
+    border-bottom: 1px dotted #dedede;
+    padding: 4px 4px 8px;
+    box-sizing: border-box;
+}
+
+.toolbar__left,
+.toolbar__left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.table__container {
+    position: relative;
+    width: 100%;
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: auto;
+    box-sizing: border-box;
+}
+
+.table__container-border{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.table__paging {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.table__footer {
+    position: relative;
+}
+
+.toolbar__right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 10px;
+}

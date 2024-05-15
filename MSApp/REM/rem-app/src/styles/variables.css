@@ -1,0 +1,10 @@
+:root {
+  --color-link: blue;
+  --el-component-size: 36px;
+  --el-input-height: 36px;
+  --border-color:#dedede;
+  --color-primary:#2196f3;
+  --border-color--default:#dedede;
+  --border-color--focus:#2196f3;
+  --outline-hover: 4px dotted #42a5f5;
+}

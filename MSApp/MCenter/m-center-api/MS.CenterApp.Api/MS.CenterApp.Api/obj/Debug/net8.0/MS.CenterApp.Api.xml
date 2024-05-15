@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MS.CenterApp.Api</name>
+    </assembly>
+    <members>
+        <member name="M:MS.CenterApp.Api.Controllers.AccountsController.ConfirmMultiEmail(System.Collections.Generic.IEnumerable{MS.Core.Entities.Auth.User})">
+            <summary>
+            Thực hiện xác thực thông tin hàng loạt Email (Chỉ dành cho cấp nhân viên trở lên)
+            </summary>
+            <param name="users">Danh sách xác nhận</param>
+            <returns></returns>
+            CreatedBy: NVMANH (27/09/2022)
+        </member>
+    </members>
+</doc>

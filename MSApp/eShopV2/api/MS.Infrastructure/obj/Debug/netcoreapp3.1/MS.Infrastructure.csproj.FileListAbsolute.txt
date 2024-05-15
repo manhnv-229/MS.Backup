@@ -1,0 +1,13 @@
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.Infrastructure\bin\Debug\netcoreapp3.1\MS.Infrastructure.deps.json
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.Infrastructure\bin\Debug\netcoreapp3.1\MS.Infrastructure.dll
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.Infrastructure\bin\Debug\netcoreapp3.1\MS.Infrastructure.pdb
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.Infrastructure\bin\Debug\netcoreapp3.1\MS.ApplicationCore.dll
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.Infrastructure\bin\Debug\netcoreapp3.1\MS.ApplicationCore.pdb
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.Infrastructure\obj\Debug\netcoreapp3.1\MS.Infrastructure.AssemblyInfoInputs.cache
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.Infrastructure\obj\Debug\netcoreapp3.1\MS.Infrastructure.AssemblyInfo.cs
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.Infrastructure\obj\Debug\netcoreapp3.1\MS.Infrastructure.csproj.CoreCompileInputs.cache
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.Infrastructure\obj\Debug\netcoreapp3.1\MS.Infrastructure.csproj.CopyComplete
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.Infrastructure\obj\Debug\netcoreapp3.1\MS.Infrastructure.dll
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.Infrastructure\obj\Debug\netcoreapp3.1\MS.Infrastructure.pdb
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.Infrastructure\obj\Debug\netcoreapp3.1\MS.Infrastructure.csproj.AssemblyReference.cache
+D:\PRIVATE\GitHub\MSOFT.eContact\MS.eContact\MS.Infrastructure\obj\Debug\netcoreapp3.1\MS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig

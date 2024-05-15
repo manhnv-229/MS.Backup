@@ -1,0 +1,20 @@
+version: '3'
+networks: 
+  nvmanh-network:
+    external: true
+services:
+  mscenter:
+    image: mscenter
+    container_name: mscenter
+    environment:
+        - TZ=Asia/Ho_Chi_Minh
+    restart: always
+    networks:
+      - nvmanh-network
+    ports:
+      - '6868:80'
+    build:
+      context: .
+      dockerfile: MS.CenterApp.Api/Dockerfile
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

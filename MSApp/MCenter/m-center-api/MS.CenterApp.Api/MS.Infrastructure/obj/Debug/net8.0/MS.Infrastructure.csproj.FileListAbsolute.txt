@@ -1,0 +1,17 @@
+D:\PRIVATE\GitHub\MS.ThaiSalonV2\MCenter\m-center-api\MS.CenterApp.Api\MS.Infrastructure\bin\Debug\net8.0\MS.Infrastructure.deps.json
+D:\PRIVATE\GitHub\MS.ThaiSalonV2\MCenter\m-center-api\MS.CenterApp.Api\MS.Infrastructure\bin\Debug\net8.0\MS.Infrastructure.dll
+D:\PRIVATE\GitHub\MS.ThaiSalonV2\MCenter\m-center-api\MS.CenterApp.Api\MS.Infrastructure\bin\Debug\net8.0\MS.Infrastructure.pdb
+D:\PRIVATE\GitHub\MS.ThaiSalonV2\MCenter\m-center-api\MS.CenterApp.Api\MS.Infrastructure\bin\Debug\net8.0\MS.Core.dll
+D:\PRIVATE\GitHub\MS.ThaiSalonV2\MCenter\m-center-api\MS.CenterApp.Api\MS.Infrastructure\bin\Debug\net8.0\MS.Core.pdb
+D:\PRIVATE\GitHub\MS.ThaiSalonV2\MCenter\m-center-api\MS.CenterApp.Api\MS.Infrastructure\bin\Debug\net8.0\vi-VN\MS.Core.resources.dll
+D:\PRIVATE\GitHub\MS.ThaiSalonV2\MCenter\m-center-api\MS.CenterApp.Api\MS.Infrastructure\obj\Debug\net8.0\MS.Infrastructure.csproj.AssemblyReference.cache
+D:\PRIVATE\GitHub\MS.ThaiSalonV2\MCenter\m-center-api\MS.CenterApp.Api\MS.Infrastructure\obj\Debug\net8.0\MS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRIVATE\GitHub\MS.ThaiSalonV2\MCenter\m-center-api\MS.CenterApp.Api\MS.Infrastructure\obj\Debug\net8.0\MS.Infrastructure.AssemblyInfoInputs.cache
+D:\PRIVATE\GitHub\MS.ThaiSalonV2\MCenter\m-center-api\MS.CenterApp.Api\MS.Infrastructure\obj\Debug\net8.0\MS.Infrastructure.AssemblyInfo.cs
+D:\PRIVATE\GitHub\MS.ThaiSalonV2\MCenter\m-center-api\MS.CenterApp.Api\MS.Infrastructure\obj\Debug\net8.0\MS.Infrastructure.csproj.CoreCompileInputs.cache
+D:\PRIVATE\GitHub\MS.ThaiSalonV2\MCenter\m-center-api\MS.CenterApp.Api\MS.Infrastructure\obj\Debug\net8.0\MS.Infrastructure.sourcelink.json
+D:\PRIVATE\GitHub\MS.ThaiSalonV2\MCenter\m-center-api\MS.CenterApp.Api\MS.Infrastructure\obj\Debug\net8.0\MS.Infrastructure.csproj.CopyComplete
+D:\PRIVATE\GitHub\MS.ThaiSalonV2\MCenter\m-center-api\MS.CenterApp.Api\MS.Infrastructure\obj\Debug\net8.0\MS.Infrastructure.dll
+D:\PRIVATE\GitHub\MS.ThaiSalonV2\MCenter\m-center-api\MS.CenterApp.Api\MS.Infrastructure\obj\Debug\net8.0\refint\MS.Infrastructure.dll
+D:\PRIVATE\GitHub\MS.ThaiSalonV2\MCenter\m-center-api\MS.CenterApp.Api\MS.Infrastructure\obj\Debug\net8.0\MS.Infrastructure.pdb
+D:\PRIVATE\GitHub\MS.ThaiSalonV2\MCenter\m-center-api\MS.CenterApp.Api\MS.Infrastructure\obj\Debug\net8.0\ref\MS.Infrastructure.dll

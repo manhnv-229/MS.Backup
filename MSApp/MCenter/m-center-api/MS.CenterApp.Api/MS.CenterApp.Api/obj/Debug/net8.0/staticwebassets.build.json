@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "/mUDPWWZetlXmMwDnJFjXQyOxSNc4GuZvhoCU5/R9TY=",
+  "Source": "MS.CenterApp.Api",
+  "BasePath": "_content/MS.CenterApp.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

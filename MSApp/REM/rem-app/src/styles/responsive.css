@@ -1,0 +1,37 @@
+@media (max-width: 700px) {
+    .paging-index,
+    .paging-entity-name {
+        display: none;
+    }
+    .mobile--hide {
+        display: none;
+    }
+}
+
+.flex--column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex--row{
+    display: flex;
+}
+.align-items--end{
+    align-items: flex-end;
+}
+
+.justify-content--end{
+    justify-content: flex-end;
+}
+.gap-6{
+    gap: 6px;
+}
+.align--center{
+    align-items: center;
+}
+
+.combobox-ext{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}

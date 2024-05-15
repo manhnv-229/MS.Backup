@@ -1,0 +1,109 @@
+#print-element {
+    min-width: 150px;
+    padding: 5px 10px 5px 5px;
+    border: 1px solid #ededed;
+    font-size: 12px;
+}
+
+#print-element label {
+    font-weight: 700;
+}
+
+.p-org {
+    width: 100%;
+    text-align: center;
+}
+
+.p-org__name {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.p-org__description,
+.p-money__label,
+.p-money__value,
+.p-org__phone,
+.product__name {
+    font-weight: 700;
+}
+
+.p-money__label {
+    text-decoration: underline;
+}
+
+.p__title {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0;
+    white-space: nowrap;
+}
+
+.p-products {
+    margin: 8px 0;
+    padding: 4px 0;
+    border-top: 1px dashed #000;
+    border-bottom: 1px dashed #000;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    max-height: calc(100vh - 550px);
+    overflow-y: auto;
+}
+
+.p-product {
+    display: block;
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.product__total-money {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-total-money {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-money__value {
+    text-align: right;
+    font-size: 18px;
+}
+
+.p-person {
+    border-top: 1px dashed #000;
+    border-bottom: 1px dashed #000;
+    margin: 10px 0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.p-employee__title {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.p-employee__name {
+    margin-top: 25px;
+}
+
+.p-moreinfo {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.p-author {
+    margin-top: 10px;
+    padding: 4px 4px;
+    border: 1px dashed #000;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+}

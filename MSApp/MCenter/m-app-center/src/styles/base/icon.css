@@ -1,0 +1,186 @@
+.icon{
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon-16{
+    background-size: 16px 16px;
+}
+
+.icon-20{
+    background-size: 20px 20px;
+}
+
+.icon-24{
+    background-size: 24px 24px;
+}
+.icon--backup{
+    background-image: url(../../assets/icon/backup-30.png);
+}
+.icon--mail-statistic{
+    background-image: url(../../assets/icon/mail-statistics-48.png);
+}
+
+.icon--input{
+    background-image: url(../../assets/icon/input-48.png);
+}
+
+.icon--output{
+    background-image: url(../../assets/icon/output-48.png);
+}
+
+.icon--time-red{
+    background-image: url(../../assets/icon/time-50.png);
+}
+
+.icon--payment{
+    background-image: url(../../assets/icon/payment-48.png);
+}
+
+.icon--add{
+    background-image: url(../../assets/icon/add-50.png);
+}
+
+.icon--merge{
+    background-image: url(../../assets/icon/merge.png);
+}
+.icon--separate{
+    background-image: url(../../assets/icon/separate.png);
+}
+.icon--add-to-order{
+    background-image: url(../../assets/icon/create-order.gif);
+}
+
+.icon--purchase-order{
+    background-image: url(../../assets/icon/purchase-order.png);
+}
+
+.icon--start{
+    background-image: url(../../assets/icon/start.png);
+}
+
+.icon--cancel-order{
+    background-image: url(../../assets/icon/calcel-order-2.png);
+}
+
+.icon--pre-order{
+    background-image: url(../../assets/icon/pre-order.png);
+}
+
+.icon--play{
+    background-image: url(../../assets/icon/start.png);
+}
+
+.icon--history{
+    background-image: url(../../assets/icon/history-64.png);
+}
+
+.icon--close{
+    background-image: url(../../assets/icon/close-32.png);
+}
+
+.icon--food{
+    background-image: url(../../assets/icon/food-48.png);
+}
+
+.icon--girl{
+    background-image: url(../../assets/icon/girl-48.png);
+}
+.icon--heart{
+    background-image: url(../../assets/icon/heart.gif);
+}
+.icon--confirm{
+    background-image: url(../../assets/icon/check-white-48.png);
+}
+
+
+.icon--close-white{
+    background-image: url(../../assets/icon/close-white-32.png);
+}
+
+.icon--edit{
+    background-image: url(../../assets/icon/edit-26.png);
+}
+
+.icon--remove{
+    background-image: url(../../assets/icon/close-32.png);
+    opacity: .8;
+}
+
+.icon--remove:hover{
+    background-image: url(../../assets/icon/close-32.png);
+    opacity: 1;
+}
+
+.icon--collapse{
+    background-image: url(../../assets/icon/right-48.png)
+}
+
+.icon--expand{
+    background-image: url(../../assets/icon/left-48.png);
+}
+
+.icon--leftw50{
+    background-image: url(../../assets/icon/left-w50.png);
+}
+
+.icon--rightw50{
+    background-image: url(../../assets/icon/right-w50.png);
+}
+
+.icon--listw50{
+    background-image: url(../../assets/icon/list-w50.png);
+}
+
+.icon--open-box-48{
+    background-image: url(../../assets/icon/open-box-48.png);
+}
+
+.icon--undo30{
+    background-image: url(../../assets/icon/undo-30.png);
+}
+
+.icon--key{
+    background-image: url(../../assets/icon/key.png);
+}
+
+.icon--loading{
+    background-image: url(../../assets/icon/loading.gif);
+}
+.icon--waiting{
+    background-image: url(../../assets/icon/waiting.gif);
+}
+.icon--complete{
+    background-image: url(../../assets/icon/complete-48.png);
+}
+
+.icon--working{
+    background-image: url(../../assets/icon/cloud-development.gif);
+}
+
+.icon--setting-gif{
+    background-image: url(../../assets/icon/setting.gif);
+}
+
+.icon--setting-gif-2{
+    background-image: url(../../assets/icon/setting2.gif);
+}
+
+.icon--save{
+    background-image: url(../../assets/icon/save-32.png);
+}
+
+.icon--eye{
+    background-image: url(../../assets/icon/show-password-24.png);
+}
+
+.icon--error{
+    background-image: url(../../assets/icon/error-48.png);
+}
+
+.icon--rocket{
+    background-image: url(../../assets/icon/rocket-64.png);
+}
+
+.icon--refresh{
+    background-image: url(../../assets/icon/refresh-32.png);
+}

@@ -1,0 +1,192 @@
+button:hover,
+button:focus {
+  outline: 4px dotted #42a5f5;
+}
+.btn {
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  height: 36px;
+  min-width: 75px;
+  padding: 0 16px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-icon {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #dedede;
+}
+
+.btn-icon:hover,
+.btn-icon:focus {
+  border-color: #004186;
+}
+
+.btn--default {
+  background-color: #0062cc;
+  color: #fff;
+}
+
+.btn--add,
+.btn--success {
+  background-color: #006207;
+  color: #fff;
+}
+
+.btn--close:hover,
+.btn--close:focus {
+  background-color: #970000 !important;
+}
+
+.btn--table:hover,
+.btn--table:focus {
+  background-color: #f72727 !important;
+  color: #fff;
+}
+
+.dialog__button--cancel,
+.btn--close,
+.btn--remove {
+  background-color: #ff0000 !important;
+  color: #fff !important;
+}
+
+.dialog__button--cancel:hover,
+.dialog__button--cancel:focus {
+  background-color: #b80000 !important;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #004186;
+}
+
+button.btn--remove-item,
+button.btn--close-item {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 2;
+  color: #ff0000;
+  border-color: #ff0000;
+  border-style: solid;
+}
+
+.btn-mini {
+  background: none;
+  font-size: 16px;
+  width: 20px;
+  text-align: center;
+  border: unset;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn--table-mini {
+  border: unset;
+  background: none;
+  cursor: pointer;
+}
+.btn--table-mini i {
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+.btn--table-mini i:hover {
+  opacity: 1;
+}
+
+.btn--small {
+  height: 30px;
+}
+
+.btn--nobg {
+  background: none !important;
+  color: #004999;
+  font-size: 25px;
+  /* border: 1px solid #004999; */
+  padding: unset;
+}
+
+.btn-refresh {
+  min-width: unset;
+  padding: unset;
+  border: 1px solid #dedede;
+  background-color: #fff;
+  width: 36px !important;
+  font-size: 16px;
+  color: #212121;
+}
+
+.btn-refresh:hover,
+.btn-refresh:focus {
+  border-color: #0033ff;
+  color: #0033ff;
+  background-color: unset;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* OTHER */
+.mpopup__button-close {
+  border: 1px solid #ff0000;
+  border-radius: 50%;
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: -10px;
+  right: -10px;
+  font-size: 20px;
+  padding: 0;
+  color: #ff0000;
+  background-color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 0px 8px #6d6d6d;
+  z-index: 999;
+  background-image: url(../../assets/icon/close-48.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+}
+
+
+.btn-table-header{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px 8px;
+  border: unset;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-table-header .font-icon--flex{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+}
+
+.cell:has(.btn-table-header){
+  padding: 4px !important;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+}

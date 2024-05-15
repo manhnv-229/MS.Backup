@@ -1,0 +1,598 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace MS.Core.MSEnums
+{
+    /// <summary>
+    /// Enum giới tính
+    /// </summary>
+    /// Created by: NVMANH (12/03/2017)
+    public enum Gender
+    {
+        Male = 0,
+        Female = 1,
+        Other = 2
+    }
+
+    /// <summary>
+    /// Tình trạng hóa đơn
+    /// </summary>
+    public enum InvoiceStatus
+    {
+        /// <summary>
+        /// Chưa thanh toán
+        /// </summary>
+        NOT_YET = 0,
+
+        /// <summary>
+        /// Đã thanh toán
+        /// </summary>
+        DONE = 1,
+
+        /// <summary>
+        /// Nháp
+        /// </summary>
+        DRAF = 3,
+
+        /// <summary>
+        /// Không cần thành toán
+        /// </summary>
+        NOT_NEED_PAYMENT = 2,
+
+        /// <summary>
+        /// Đã hủy
+        /// </summary>
+        DELETED = 4,
+    }
+
+    public enum WorkStatus
+    {
+        WORKING = 1,
+        STOPPING = 0,
+        OTHER = 2
+    }
+
+    /// <summary>
+    /// Enum tình trạng hôn nhân
+    /// </summary>
+    public enum MaritalStatus : int
+    {
+        //Độc thân
+        Singler = 0,
+        //Đã đính hôn
+        Engaged = 1,
+        //Đã kết hôn
+        Married = 2,
+        //Đã ly hôn
+        Separated = 3,
+        //Đã ly thân
+        Divorced = 4,
+        //Góa chồng
+        Widow = 5,
+        //Góa vợ
+        Widower = 6
+    }
+
+    /// <summary>
+    /// Trạng thái của đối tượng
+    /// </summary>
+    public enum MSEntityState
+    {
+        ADD = 1,
+        UPDATE = 2,
+        DELETE = 3,
+    }
+    public enum MSRole
+    {
+        Administrator = 1,
+        SuperManager = 5,
+        Manager = 10,
+        Member = 100,
+        NewUser = 999
+    }
+
+
+
+    /// <summary>
+    /// Loại kế hoạch thu/chi
+    /// </summary>
+    public enum ExpenditurePlanType
+    {
+        /// <summary>
+        /// Kế hoạch thu cho sự kiện
+        /// </summary>
+        INCREMENT_EVENT = 100,
+
+        /// <summary>
+        /// Kế hoạch thu quỹ hàng năm
+        /// </summary>
+        INCREMENT_ANNUAL = 101,
+
+        /// <summary>
+        /// Thu Khác
+        /// </summary>
+        INCREMENT_OTHER = 102,
+
+        /// <summary>
+        /// Kế hoạch chi cho sự kiện
+        /// </summary>
+        REDURE_EVENT = 200,
+
+        /// <summary>
+        /// Chi khác
+        /// </summary>
+        REDUCE_OTHER = 201
+
+    }
+
+
+    /// <summary>
+    /// Loại khoản thu/ chi
+    /// </summary>
+    public enum ExpenditureType
+    {
+        /// <summary>
+        /// Thu theo kế hoạch
+        /// </summary>
+        INCREMENT_PLAN = 1,
+
+        /// <summary>
+        /// Thu từ nguồn ủng hộ của các mạnh thường quân
+        /// </summary>
+        INCREMENT_SUPER_RICH = 2,
+
+        /// <summary>
+        /// Mạnh thường quân
+        /// </summary>
+        INCREMENT_OTHER = 3,
+
+        /// <summary>
+        /// Chi theo kế hoạch
+        /// </summary>
+        REDURE_PLAN = 20,
+
+        /// <summary>
+        /// Chi cho đám cưới
+        /// </summary>
+        REDURE_WEDDING = 21,
+
+        /// <summary>
+        /// Chi cho đám hiếu
+        /// </summary>
+        REDURE_FUNERAL = 22,
+
+        /// <summary>
+        /// Chi ốm đau, nghỉ bệnh
+        /// </summary>
+        REDUCE_MEDICAL = 23,
+
+        /// <summary>
+        /// Chi khác
+        /// </summary>
+        REDUCE_OTHER = 24
+
+    }
+
+    /// <summary>
+    /// Loại phiếu
+    /// </summary>
+    public enum ReceiptType
+    {
+        /// <summary>
+        /// Tăng (Thu)
+        /// </summary>
+        Income = 1,
+
+        /// <summary>
+        /// Giảm (Chi)
+        /// </summary>
+        Outcome = 2,
+    }
+
+    /// <summary>
+    /// Loại lọc dữ liệu
+    /// </summary>
+    public enum FilterType
+    {
+        /// <summary>
+        /// Chứa
+        /// </summary>
+        Containt = 1,
+
+        /// <summary>
+        /// Không chứa
+        /// </summary>
+        NotContaint = 2,
+
+        /// <summary>
+        /// Bắt đầu với
+        /// </summary>
+        StartWith = 3,
+
+        /// <summary>
+        /// Kết thúc với
+        /// </summary>
+        EndWith = 4,
+
+        /// <summary>
+        /// Bằng
+        /// </summary>
+        Equal = 5,
+
+        /// <summary>
+        /// Không bằng
+        /// </summary>
+        NotEqual = 6
+    }
+
+    /// <summary>
+    /// Loại sắp xếp
+    /// </summary>
+    public enum SortType
+    {
+        /// <summary>
+        /// Tăng dần
+        /// </summary>
+        ASC = 1,
+
+        /// <summary>
+        /// Giảm dần
+        /// </summary>
+        DESC = 2
+    }
+
+    /// <summary>
+    /// Loại giấy phép
+    /// </summary>
+    public enum LicenseType
+    {
+        /// <summary>
+        /// Dùng thử
+        /// </summary>
+        Trial = 1,
+
+        /// <summary>
+        /// Chính thức
+        /// </summary>
+        Genuine = 2
+    }
+
+    public enum TimeRange
+    {
+        Today = 1,
+        Yesterday = 2,
+        ThisWeek = 3,
+        ThisMonth = 4,
+        ThisQuarter = 5,
+        ThisYear = 6,
+        Custom = 7
+    }
+
+
+    public enum VIPOptions
+    {
+        /// <summary>
+        /// 1 Tuần
+        /// </summary>
+        ONE_WEEK = 7,
+
+        /// <summary>
+        /// 2 Tuần
+        /// </summary>
+        HALF_MONTH = 15,
+        /// <summary>
+        /// 1 Tháng
+        /// </summary>
+        ONE_MONTH = 30,
+
+        /// <summary>
+        /// 6 tháng
+        /// </summary>
+        HALF_YEAR = 180,
+
+        /// <summary>
+        /// 1 Năm
+        /// </summary>
+        ONE_YEAR = 365,
+
+        /// <summary>
+        /// Vĩnh viễn
+        /// </summary>
+        NO_LIMITTED = 999,
+    }
+
+
+    /// <summary>
+    /// Loại phiếu/Hóa đơn
+    /// 306- nhập hàng;
+    /// </summary>
+    public enum RefType
+    {
+        /// <summary>
+        /// Phiếu kho
+        /// </summary>
+        IN_WAREHOUSE = 2095,
+
+        /// <summary>
+        /// Phiếu xuất kho
+        /// </summary>
+        OUT_WAREHOUSE = 2906,
+
+        /// <summary>
+        /// Bán hàng
+        /// </summary>
+        SALE = 550,
+
+
+
+    }
+
+    /// <summary>
+    /// Phương thức thanh toán
+    /// </summary>
+    public enum PaymentType
+    {
+        /// <summary>
+        /// Tiền mặt
+        /// </summary>
+        CASH = 0,
+
+        /// <summary>
+        /// Chuyển khoản
+        /// </summary>
+        TRANSFER = 1,
+
+        VISA_DEBIT = 2,
+        MASTER_DEBIT = 3,
+        American_Express = 4,
+        JCB = 5
+    }
+
+
+
+    /// <summary>
+    /// Trạng thái thanh toán
+    /// </summary>
+    public enum PaymentStatus
+    {
+        /// <summary>
+        /// Đã thanh toán
+        /// </summary>
+        PAID = 1,
+
+        /// <summary>
+        /// Chưa thanh toán
+        /// </summary>
+        PENDING = 0,
+    }
+
+    /// <summary>
+    /// Hình thức nợ
+    /// </summary>
+    public enum DebitType
+    {
+        /// <summary>
+        /// Nợ phải thu
+        /// </summary>
+        Receivable = 0,
+
+        /// <summary>
+        /// Nợ phải trả
+        /// </summary>
+        Payable = 1
+    }
+
+    /// <summary>
+    ///  Giá trị lưu trữ các thiết lập
+    /// </summary>
+    public enum SettingValueType
+    {
+        /// <summary>
+        /// Giá trị dạng boolean
+        /// </summary>
+        BOOLEAN = 1,
+
+        // Giá trị lưu dạng số nguyên
+        INTEGER = 2,
+
+        // DẠng chuỗi
+        STRING = 3,
+
+        // DẠng JSON
+        JSON = 4,
+
+
+    }
+
+    /// <summary>
+    /// Loại báo cáo
+    /// </summary>
+    public enum ReportType
+    {
+        // Doanh thu:
+        REVENUE = 1,
+        // Chi phí: // Chi phí hoạt động, nhà, xưởng...
+        EXPENSTS = 2,
+        // Lợi nhuận
+        PROFIT = 3
+    }
+
+    public enum ThemeType
+    {
+        Note = 1,
+        Layout = 2
+    }
+
+    public enum SlotType
+    {
+        USING = 1,
+
+    }
+
+    /// <summary>
+    /// Tình trạng chỗ/ bàn/ phòng
+    /// </summary>
+    public enum SlotStatus
+    {
+        /// <summary>
+        /// Trống
+        /// </summary>
+        FREE = 0,
+
+        /// <summary>
+        /// Đang được sử dụng
+        /// </summary>
+        BUSY = 1,
+
+        /// <summary>
+        /// Đang chờ khách
+        /// </summary>
+        WAITING = 2,
+
+        /// <summary>
+        /// Đang ghép
+        /// </summary>
+        MERGING = 3,
+
+        /// <summary>
+        /// Đang khoá
+        /// </summary>
+        LOCKING = 4
+    }
+
+    public enum ReservationStatus
+    {
+        /// <summary>
+        /// Đang chờ
+        /// </summary>
+        PENDING = 0,
+
+        /// <summary>
+        /// Đã huỷ
+        /// </summary>
+        CANCEL = 1,
+
+        /// <summary>
+        /// Đã hoàn thành
+        /// </summary>
+        DONE = 2
+    }
+
+    public enum InventoryItemType
+    {
+        /// <summary>
+        /// Không xác định
+        /// </summary>
+        UNKNOWN = 0,
+
+    }
+
+    /// <summary>
+    /// Trạng thái invoice theo slot
+    /// </summary>
+    public enum InvoiceSlotActionType
+    {
+        /// <summary>
+        /// Thêm mới
+        /// </summary>
+        ADD = 0,
+
+        /// <summary>
+        /// Cập nhật
+        /// </summary>
+        UPDATE = 1,
+
+        /// <summary>
+        /// Xem
+        /// </summary>
+        VIEW = 2,
+
+        /// <summary>
+        /// Xoá
+        /// </summary>
+        DELETE = 4,
+
+        /// <summary>
+        /// Ghép slot
+        /// </summary>
+        MERGE = 5,
+
+        /// <summary>
+        /// Huỷ ghép slot
+        /// </summary>
+        UNMERGE = 6,
+
+        /// <summary>
+        /// Chuyển bàn
+        /// </summary>
+        CHANGE = 7,
+
+        /// <summary>
+        /// Hoàn thành
+        /// </summary>
+        COMPLETE = 8
+    }
+
+    /// <summary>
+    /// Cách tính tiền
+    /// </summary>
+    public enum ChargeType
+    {
+        /// <summary>
+        /// Theo số lượng
+        /// </summary>
+        QUANTITY = 0,
+
+        /// <summary>
+        /// Theo phút
+        /// </summary>
+        MINUTES=1,
+
+        /// <summary>
+        /// Theo giờ
+        /// </summary>
+        HOURS=2,
+
+        /// <summary>
+        /// Tính theo ngày
+        /// </summary>
+        DAYS=3,
+
+        /// <summary>
+        /// Tính theo tháng
+        /// </summary>
+        MONTHS=4,
+
+        /// <summary>
+        /// Tính theo năm
+        /// </summary>
+        YEARS=5,
+    }
+
+    /// <summary>
+    /// Kiểu dữ liệu cấu hình
+    /// </summary>
+    public enum ConfigValueType
+    {
+        /// <summary>
+        /// Chuỗi
+        /// </summary>
+        STRING=0,
+
+        /// <summary>
+        /// Số nguyên
+        /// </summary>
+        INT=1,
+
+        /// <summary>
+        /// True/ False
+        /// </summary>
+        BOOLEAN=2,
+
+        /// <summary>
+        /// Chuỗi JSON
+        /// </summary>
+        JSON=3
+    }
+}
